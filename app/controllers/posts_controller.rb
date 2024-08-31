@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
 
-  def index  # indexアクションを定義した
+  def index  
     @posts = Post.all  # すべてのレコードを@postsに代入
   end
 
